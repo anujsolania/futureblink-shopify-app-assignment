@@ -149,7 +149,7 @@ export default function Index() {
               autocomplete="off"
               placeholder="e.g. Free shipping on orders over $50!"
             />
-            <s-button type="submit" slot="primary-action" disabled={isLoading}>
+            <s-button type="submit" variant="primary" disabled={isLoading}>
               {isLoading ? "Saving..." : "Save Announcement"}
             </s-button>
           </s-stack>
